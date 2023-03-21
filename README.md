@@ -7,7 +7,7 @@ Model: [AudioSet Tagging CNN](https://github.com/qiuqiangkong/audioset_tagging_c
 Dataset: [Drum and Percussion Kits](https://zenodo.org/record/3994999)
 * Used freeDB.tar
 
-Note: assumes you have a GPU for training, if not, remove `accelertor='gpu'`  in `train.py`. 
+Note: assumes you have a GPU for training, if not, remove `accelerator='gpu'`  in `train.py`. 
 
 ## Install
 `pip install -r requirements.txt`
