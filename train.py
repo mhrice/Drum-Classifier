@@ -4,7 +4,6 @@ from model import Classifier, Cnn14
 
 
 def main():
-    print("Hello World")
     network = Cnn14(n_fft=4096, num_classes=3, sample_rate=44100)
     model = Classifier(1e-4, 1e-3, 44100, network)
     dataset = DrumDataset("sss_free")
