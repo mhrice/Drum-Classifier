@@ -10,7 +10,7 @@ def main():
     batch_size = 32
     data = DrumDataModule(dataset, batch_size)
 
-    trainer = pl.Trainer(max_epochs=10, accelerator="cpu")
+    trainer = pl.Trainer(max_epochs=10, accelerator="gpu")
     trainer.fit(model, data)
 
 
